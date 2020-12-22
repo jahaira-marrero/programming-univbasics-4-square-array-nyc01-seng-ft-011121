@@ -3,7 +3,7 @@ counter = 0
 array = [1, 2, 3]
 
 while array[counter] do
-  puts array[counter**2]
-  counter += 1
+  array.each do |a| **2
+  puts "#{a}"
   end
 end
